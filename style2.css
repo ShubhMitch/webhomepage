@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 40px 40px 10px 40px;
+  font-size: x-large;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  padding: 0px 6px;
+}
+.heading1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.shopnow a{
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  word-spacing: 4px;
+  color: black;
+  letter-spacing: 8px;
+}
+.shopnow{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.shopnow a:hover{
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+}
+.heading2 {
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+footer{
+    padding: 20px;
+    background: linear-gradient(29deg, #686d6b 0%, #faffff 100%);
+}
+
+@media screen and (max-width: 1024px){
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: "Baloo Bhai 2", cursive;
+      }
+    .container {
+        display: grid;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 8rem;
+        grid-template-areas:
+          "card1 " 
+          "card2 "
+          "card3 " 
+          "card4 "
+          "card5 ";
+      }
+      .navbar{
+          padding: 30px 30px 30px 30px;
+      }
+      .about{
+          padding-bottom: 40px;
+      }
+      @media (max-width: 768px){
+        .container {
+            display: grid;
+            margin-top: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 0rem;
+            grid-template-areas:
+              "card1 " 
+              "card2 "
+              "card3 " 
+              "card4 " 
+              "card5 ";
+          }
+      }
+}
